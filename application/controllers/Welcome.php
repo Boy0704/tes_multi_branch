@@ -24,4 +24,9 @@ class Welcome extends CI_Controller {
 		echo "456";
 		$this->load->view('welcome_message');
 	}
+
+	public function add()
+	{
+		# code...
+	}
 }
