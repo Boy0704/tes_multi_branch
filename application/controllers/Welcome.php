@@ -25,4 +25,9 @@ class Welcome extends CI_Controller {
 		echo "abc";
 		$this->load->view('welcome_message');
 	}
+
+	public function simpan_cetak($value='')
+	{
+		# code...
+	}
 }
